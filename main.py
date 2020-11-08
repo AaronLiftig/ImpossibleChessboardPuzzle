@@ -60,13 +60,13 @@ def GetFlipSquare(stateBin,keyBin):
 
 binaryBoard = CreateRandomBinaryBoard()
 
-print('\n'*2)
+print('\n')
 
 stateBin = CurrentBoardState(binaryBoard)
 
 print('\n')
 
-# You can pick a square for the key to be hidden.
+# You can pick the square for the key to be hidden in.
 # Otherwise, the key location is random.
 keyBin = GetKeyBinaryLocation(keySquare=None)
 
