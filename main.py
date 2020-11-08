@@ -18,7 +18,7 @@ def CurrentBoardState(board):
     l = [[] for _ in range(6)]
     for n in range(4):
         odd = 2*n + 1
-        everyOtherTwo = n%2 + 2
+        everyOtherTwo = n%2 + 4*(n//2) + 2
         lastFour = n + 4
         for i in range(8):
             l[0].append(board[i][odd])
@@ -27,6 +27,9 @@ def CurrentBoardState(board):
             l[3].append(board[odd][i])
             l[4].append(board[everyOtherTwo][i])
             l[5].append(board[lastFour][i])
+    
+    for row in l:
+        print(row)
     
     stateBin = ''
     for item in l:
