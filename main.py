@@ -28,9 +28,6 @@ def CurrentBoardState(board):
             l[4].append(board[everyOtherTwo][i])
             l[5].append(board[lastFour][i])
     
-    for row in l:
-        print(row)
-    
     stateBin = ''
     for item in l:
         stateBin = str(sum(item) % 2) + stateBin
