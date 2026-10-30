@@ -13,5 +13,3 @@ This project showcases an intriguing mathematical concept related to chessboards
 1. Clone the repository: `git clone https://github.com/AaronLiftig/ImpossibleChessboardPuzzle.git`
 2. Navigate to the project directory.
 3. Run the code: `python main.py`
-
-Alternatively, you can run the code directly on [Repl.it](https://repl.it/@AaronLiftig/ImpossibleChessboardPuzzle#main.py).
